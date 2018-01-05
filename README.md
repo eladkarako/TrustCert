@@ -17,26 +17,26 @@ then using <code>X509Store</code>'s either <code>Add</code> or <code>Remove</cod
 <br/>
 
 The exe must be ran as an admin, if you're not the admin of your local-machine there is not much you can do, it is written in its manifest too:
-<pre>
-&lt;assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"&gt; 
-  &lt;trustInfo xmlns="urn:schemas-microsoft-com:asm.v2"&gt; 
-    &lt;security&gt; 
-      &lt;requestedPrivileges&gt; 
-        &lt;requestedExecutionLevel level="requireAdministrator"&gt;&lt;/requestedExecutionLevel&gt; 
-      &lt;/requestedPrivileges&gt; 
-    &lt;/security&gt; 
-  &lt;/trustInfo&gt; 
-  &lt;compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"&gt; 
-    &lt;application&gt; 
-      &lt;supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"&gt;&lt;/supportedOS&gt; 
-      &lt;supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"&gt;&lt;/supportedOS&gt; 
-      &lt;supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"&gt;&lt;/supportedOS&gt; 
-      &lt;supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"&gt;&lt;/supportedOS&gt; 
-      &lt;supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"&gt;&lt;/supportedOS&gt; 
-    &lt;/application&gt; 
-  &lt;/compatibility&gt; 
-&lt;/assembly&gt; 
-</pre>
+```xml
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"> 
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2"> 
+    <security> 
+      <requestedPrivileges> 
+        <requestedExecutionLevel level="requireAdministrator"></requestedExecutionLevel> 
+      </requestedPrivileges> 
+    </security> 
+  </trustInfo> 
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"> 
+    <application> 
+      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS> 
+      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"></supportedOS> 
+      <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS> 
+      <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"></supportedOS> 
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"></supportedOS> 
+    </application> 
+  </compatibility> 
+</assembly> 
+```
 
 <br/>
 
