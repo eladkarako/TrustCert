@@ -1,0 +1,9 @@
+*.exe       binary
+*.manifest  text    eol=crlf
+*.cs        text    eol=crlf
+*.csproj    text    eol=crlf
+
+*.bat       text    eol=crlf
+*.cmd       text    eol=crlf
+
+*.md                eol=crlf
