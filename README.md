@@ -27,6 +27,7 @@ The exe must be ran as an admin, if you're not the admin of your local-machine t
 
 <hr/>
 
+```c#
 namespace TrustCert
 {
     using System;
@@ -193,3 +194,4 @@ namespace TrustCert
     }
 }
 
+```
