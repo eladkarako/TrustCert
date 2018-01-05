@@ -1,5 +1,5 @@
 <h1>TrustCert</h1>
-<h3>Problematically Trust Any Certificate. <br/>Self-Signed certificates too. <br/>Root-Trust. <br/>Install and uninstall. <br/>Can be easily intergated into batch-files, using the no prompt argument. <br/><sub><em>Full Source Code, Reversed engineered from Telerik's TrustCert.exe for education reasons</em>.</sub></h3>
+<h3>Programmatically Trust Any Certificate. <br/>Self-Signed certificates too. <br/>Root-Trust. <br/>Install and uninstall. <br/>Can be easily intergated into batch-files, using the no prompt argument. <br/><sub><em>Full Source Code, Reversed engineered from Telerik's TrustCert.exe for education reasons</em>.</sub></h3>
 
 <br/>
 
